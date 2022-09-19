@@ -6,7 +6,15 @@ pluginManagement {
     }
 }
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    /*
+        * FAIL_ON_PROJECT_REPOS: Fail the build if project repositories are used.
+        * PREFER_SETTINGS: Prefer repositories declared in settings.gradle over those declared in the build script.
+        * By default, repositories declared by a project will OVERRIDE whatever is declared in settings.
+
+        * See: https://docs.gradle.org/7.4.2/userguide/dependency_management.html#sub:centralized-repository-declaration
+    */
+    // repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
     repositories {
         google()
         mavenCentral()
