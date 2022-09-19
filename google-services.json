@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "662845516554",
+    "project_id": "login-regis-intent",
+    "storage_bucket": "login-regis-intent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662845516554:android:66541411557ddf1f30a8f3",
+        "android_client_info": {
+          "package_name": "com.kelompoktiga.login_regis_intent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662845516554-uqqf5eggcf5i6h594d95o4qne8pkvq0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRQ75Y0lQKsTQ8gT8PdtEwEu-W8weyPdg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662845516554-uqqf5eggcf5i6h594d95o4qne8pkvq0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
