@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace 'com.kelompoktiga.login_regis_intent'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.kelompoktiga.login_regis_intent"
         minSdk 31
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
