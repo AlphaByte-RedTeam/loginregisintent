@@ -14,7 +14,4 @@
         <!-- Customize your theme here. -->
     </style>
     
-    <style name="splashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="android:windowBackground">@drawable/splash_image</item>
-    </style>
 </resources>
