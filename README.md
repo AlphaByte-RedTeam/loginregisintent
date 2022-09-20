@@ -1,9 +1,13 @@
 # Documentation
+A brief documentation of the project such as the minimum sdk, etc.
+
+## Prerequisites
 
 Android version: 12 (S) <br />
 Android Studio version: [latest](https://developer.android.com/studio) <br />
 Kotlin version: [latest](https://developer.android.com/kotlin) <br />
 Firebase SDK version: [latest](https://firebase.google.com/docs/android/setup) <br />
+Minimum API SDK: 33 <br />
 
 ## Contributors
 
@@ -11,6 +15,8 @@ Firebase SDK version: [latest](https://firebase.google.com/docs/android/setup) <
 2. [Feri Andika](https://github.com/FeriAndika-Hub)
 3. [Janice Claresta Lingga](https://github.com/janeclrst)
 4. [Eric Wiyanto](https://github.com/wiyantoeric)
+
+## Getting Started
 
 To use the apps, please follow the instruction below:
 
