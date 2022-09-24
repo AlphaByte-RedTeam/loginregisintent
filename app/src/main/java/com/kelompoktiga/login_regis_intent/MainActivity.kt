@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         val continueButton: Button = findViewById(R.id.btnContinue)
         continueButton.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
     }
