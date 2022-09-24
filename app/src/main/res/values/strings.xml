@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">login-regis-intent</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="_3d_asset">3D Asset</string>
+    <string name="lets_get_started">Let\'s get started</string>
+    <string name="button_continue">Continue</string>
+    <string name="begin_the_journey_by_clicking_the_button_below">Begin the journey by clicking the button below</string>
 </resources>
