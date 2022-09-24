@@ -118,12 +118,12 @@
             android:id="@+id/btnGoogleLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FFECECEC"
+            android:backgroundTint="@color/bright_gray"
             android:drawableLeft="@drawable/google"
             android:paddingHorizontal="80dp"
             android:text="@string/login_with_google"
             android:textAllCaps="false"
-            android:textColor="#FF606060" />
+            android:textColor="@color/storm_dust" />
 
         <Space
             android:layout_width="match_parent"
