@@ -124,7 +124,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/or_register_with" />
+            android:text="@string/or" />
 
         <Space
             android:layout_width="match_parent"
@@ -132,14 +132,15 @@
 
         <Button
             android:id="@+id/btnGoogleRegis"
-            android:layout_width="match_parent"
+            android:layout_width="363dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/bright_gray"
             android:drawableLeft="@drawable/google"
             android:paddingHorizontal="80dp"
-            android:text="@string/login_with_google"
+            android:text="@string/register_with_google"
             android:textAllCaps="false"
-            android:textColor="@color/storm_dust" />
+            android:textColor="@color/storm_dust"
+            android:textSize="14sp" />
 
         <Space
             android:layout_width="match_parent"

@@ -19,8 +19,7 @@
     <string name="button_login">Login</string>
     <string name="welcome_to_virtech">Welcome to Virtech</string>
     <string name="embrace_the_ai_world">Embrace the AI world</string>
-    <string name="or_register_with">Or register with</string>
-    <string name="or_login_with">Or login with</string>
+    <string name="or">Or</string>
     <string name="register_with_google">Register with Google</string>
     <string name="login_with_google">Login with Google</string>
     <string name="already_have_an_account_login">Already have an account? Login!</string>
