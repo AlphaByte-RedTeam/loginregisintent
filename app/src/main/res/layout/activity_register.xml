@@ -60,14 +60,14 @@
             android:id="@+id/editNameRegis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints="@string/full_name"
             android:background="@drawable/edit_text_bg"
             android:ems="10"
             android:hint="@string/full_name"
             android:inputType="textPersonName"
             android:paddingHorizontal="20dp"
             android:paddingVertical="13dp"
-            android:textColorHint="@color/dove_gray"
-            android:autofillHints="" />
+            android:textColorHint="@color/dove_gray" />
 
         <Space
             android:layout_width="match_parent"
@@ -77,14 +77,14 @@
             android:id="@+id/editEmailRegis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints="@string/prompt_email"
             android:background="@drawable/edit_text_bg"
             android:ems="10"
             android:hint="@string/prompt_email"
             android:inputType="textEmailAddress"
             android:paddingHorizontal="20dp"
             android:paddingVertical="13dp"
-            android:textColorHint="@color/dove_gray"
-            android:autofillHints="" />
+            android:textColorHint="@color/dove_gray" />
 
         <Space
             android:layout_width="match_parent"
@@ -94,14 +94,14 @@
             android:id="@+id/editPasswordRegis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints="@string/prompt_password"
             android:background="@drawable/edit_text_bg"
             android:ems="10"
             android:hint="@string/prompt_password"
             android:inputType="textPassword"
             android:paddingHorizontal="20dp"
             android:paddingVertical="13dp"
-            android:textColorHint="@color/dove_gray"
-            android:autofillHints="" />
+            android:textColorHint="@color/dove_gray" />
 
         <Space
             android:layout_width="match_parent"
