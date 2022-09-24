@@ -114,13 +114,16 @@
             android:layout_width="match_parent"
             android:layout_height="16dp" />
 
-        <ImageButton
+        <Button
             android:id="@+id/btnGoogleLogin"
-            android:layout_width="128dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:contentDescription="@string/login_with_google"
-            app:srcCompat="@drawable/google" />
+            android:backgroundTint="@color/bright_gray"
+            android:drawableLeft="@drawable/google"
+            android:paddingHorizontal="80dp"
+            android:text="@string/login_with_google"
+            android:textAllCaps="false"
+            android:textColor="@color/storm_dust" />
 
         <Space
             android:layout_width="match_parent"
