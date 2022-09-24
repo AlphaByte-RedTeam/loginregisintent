@@ -10,5 +10,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="pickled_bluewood">#FF2C3E50</color>
     <color name="science_blue">#FF1970E2</color>
+    <color name="bright_gray">#FFECECEC</color>
+    <color name="storm_dust">#FF606060</color>
+    <color name="masala">#FF404040</color>
+    <color name="dove_gray">#FF707070</color>
     <color name="transparent">#00000000</color>
 </resources>
