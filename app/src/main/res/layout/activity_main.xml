@@ -62,6 +62,7 @@
             android:text="@string/lets_get_started"
             android:textColor="@color/black"
             android:textSize="32sp"
+            android:textStyle="bold"
             tools:ignore="TextContrastCheck" />
 
         <Space
@@ -89,6 +90,7 @@
             android:layout_marginHorizontal="24dp"
             android:backgroundTint="@color/science_blue"
             android:text="@string/button_continue"
+            android:textAllCaps="false"
             android:textColor="@color/white"
             android:textColorLink="#1970E2" />
 
