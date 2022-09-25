@@ -18,6 +18,9 @@ Minimum API SDK: 33 <br />
 3. [Janice Claresta Lingga](https://github.com/janeclrst)
 4. [Eric Wiyanto](https://github.com/wiyantoeric)
 
+## Prototype
+![prototype](https://i.imgur.com/EZmnQTG.png)
+
 ## Getting Started
 
 To use the apps, please follow the instruction below:
