@@ -30,3 +30,55 @@ To use the apps, please follow the instruction below:
 2. Open the project in Android Studio
 
 3. Run the app using your emulator device
+
+## Sreenshots
+
+### Splash Screen
+![splash screen](https://i.imgur.com/Hx8gWfs.png)
+
+### Onboarding Screen
+![onboarding screen](https://i.imgur.com/okV2rRl.png)
+
+### Register Activity
+`RegisterActivity` will have a several components, such as:
+1. EditText
+   - Full Name
+   - Email
+   - Password
+2. Button
+   - Register (password based)
+   - Register with Google
+3. TextView
+The footer TextView can be click on the `Login!` text. Just click it, and you'll be directed to `LoginActivity`
+![register](https://i.imgur.com/4B9g3A6.png)
+
+### Login Activity
+`LoginActivity` will have a several components, such as:
+1. EditText
+   - Email
+   - Password
+2. Button
+   - Login (password based)
+   - Login with Google
+3. TextView
+The footer TextView can be click on the `Register!` text. Just click it, and you'll be directed to `RegisterActivity`
+![login](https://i.imgur.com/ZfsEnoi.png)
+
+### Invalid State
+Invalid state will prompt a Snackbar that shows the input is not valid </br>
+
+![invalid register](https://i.imgur.com/zyLoGLW.png)
+
+![invalid login](https://i.imgur.com/r7Gc5ya.png)
+
+### Fill State
+Fill state is a state where the `EditText` column have a real value </br>
+![fill register](https://i.imgur.com/ngAdcBi.png)
+
+![fill login](https://i.imgur.com/ngAdcBi.png)
+
+## Home Activity
+![home](https://i.imgur.com/VhNzwyC.png)
+
+## Google One-Tap Sign In
+![google](https://i.imgur.com/9U4Jp0w.png)
