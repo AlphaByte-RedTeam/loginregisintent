@@ -49,7 +49,7 @@ To use the apps, please follow the instruction below:
    - Register (password based)
    - Register with Google
 3. TextView
-The footer TextView can be click on the `Login!` text. Just click it, and you'll be directed to `LoginActivity`
+The footer TextView can be click on the `Login!` text. Just click it, and you'll be directed to `LoginActivity` </br>
 ![register](https://i.imgur.com/4B9g3A6.png)
 
 ### Login Activity
@@ -61,7 +61,7 @@ The footer TextView can be click on the `Login!` text. Just click it, and you'll
    - Login (password based)
    - Login with Google
 3. TextView
-The footer TextView can be click on the `Register!` text. Just click it, and you'll be directed to `RegisterActivity`
+The footer TextView can be click on the `Register!` text. Just click it, and you'll be directed to `RegisterActivity` </br>
 ![login](https://i.imgur.com/ZfsEnoi.png)
 
 ### Invalid State
