@@ -100,7 +100,7 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
                                         }
                                     }
                             } else {
-                                Snackbar.make(btnRegister, "Sign in failed", Snackbar.LENGTH_LONG)
+                                Snackbar.make(btnRegister, "Sign up failed. Email already taken!", Snackbar.LENGTH_LONG)
                                     .show()
                             }
                         }
