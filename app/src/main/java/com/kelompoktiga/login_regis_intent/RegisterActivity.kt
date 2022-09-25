@@ -120,7 +120,9 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
         name = etName.text.toString()
         password = etPassword.text.toString()
 
-        // TODO: create input validation
+        if (email.isEmpty() || name.isEmpty() || password.isEmpty()) {
+            return false
+        }
 
         return true
     }
