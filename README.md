@@ -82,3 +82,7 @@ Fill state is a state where the `EditText` column have a real value </br>
 
 ## Google One-Tap Sign In
 ![google](https://i.imgur.com/9U4Jp0w.png)
+
+## Firebase Auth Database
+A proof of concept that we did implement the firebase auth to register and login </br>
+![fb db](https://i.imgur.com/hytr4qP.png)
