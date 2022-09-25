@@ -7,12 +7,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:662845516554:android:9a69e470b906744230a8f3",
+        "mobilesdk_app_id": "1:662845516554:android:594835ed27c6406b30a8f3",
         "android_client_info": {
           "package_name": "com.kelompoktiga.login_regis_intent"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "662845516554-h9k1p5g3im9kh4re434ivfg8bda2b404.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kelompoktiga.login_regis_intent",
+            "certificate_hash": "ceffdf8bdbe027fc75cab5089a7d54d5d351dfce"
+          }
+        },
         {
           "client_id": "662845516554-uqqf5eggcf5i6h594d95o4qne8pkvq0u.apps.googleusercontent.com",
           "client_type": 3
@@ -27,7 +35,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "662845516554-uqqf5eggcf5i6h594d95o4qne8pkvq0u.apps.googleusercontent.com",
+              "client_id": "662845516554-8csdvlge64svqc4b75t983p51dd50efd.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
