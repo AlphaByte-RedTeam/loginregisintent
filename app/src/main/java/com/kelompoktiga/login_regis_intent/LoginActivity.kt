@@ -11,13 +11,13 @@ import android.text.method.LinkMovementMethod
 import android.text.style.ClickableSpan
 import android.text.style.ForegroundColorSpan
 import android.text.style.StyleSpan
-import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
@@ -36,13 +36,31 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+        auth = Firebase.auth
         val tvFooter: TextView = findViewById(R.id.txtFooterLogin)
 
         etEmail = findViewById(R.id.editEmailLogin)
         etPassword = findViewById(R.id.editPasswordLogin)
 
         btnLogin = findViewById(R.id.btnLogin)
-        btnLogin.setOnClickListener(this)
+        btnLogin.setOnClickListener() {
+            email = etEmail.text.toString()
+            password = etPassword.text.toString()
+
+            if (email.isEmpty() || password.isEmpty()) {
+                Snackbar.make(it, "Email dan Password tidak boleh kosong", Snackbar.LENGTH_SHORT).show()
+            } else {
+                auth.signInWithEmailAndPassword(email, password)
+                    .addOnCompleteListener(this) { task ->
+                        if (task.isSuccessful) {
+                            val user = auth.currentUser
+                            updateUI(user)
+                        } else {
+                            Snackbar.make(it, "Email atau Password salah", Snackbar.LENGTH_SHORT).show()
+                        }
+                    }
+            }
+        }
 
         val foregroundColorSpan = ForegroundColorSpan(getColor(R.color.pickled_bluewood))
         val boldSpan = StyleSpan(Typeface.BOLD)
@@ -81,7 +99,24 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         tvFooter.text = spannableString
         tvFooter.movementMethod = LinkMovementMethod.getInstance()
 
-        auth = Firebase.auth
+    }
+
+    override fun onStart() {
+        super.onStart()
+        // Check if user is signed in (non-null) and update UI accordingly
+        val currentUser = auth.currentUser
+        if (currentUser != null && currentUser.isEmailVerified) {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            updateUI(currentUser)
+        }
+    }
+
+    private fun updateUI(currentUser: FirebaseUser?) {
+        if (currentUser != null) {
+            val intent = Intent(this@LoginActivity, HomeActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onClick(view: View?) {
