@@ -94,21 +94,10 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
                     auth.signInWithEmailAndPassword(email, password)
                         .addOnCompleteListener(this) { task ->
                             if (task.isSuccessful) {
-                                // Sign in success, update UI with the signed-in user's information
-                                Log.d("login", "signInWithEmail:success")
-                                Snackbar.make(btnLogin, "Login success", Snackbar.LENGTH_LONG).show()
-
-                                val user = auth.currentUser
                                 val toHome = Intent(this, HomeActivity::class.java)
-
-                                toHome.putExtra("token", user?.getIdToken(false).toString())
                                 startActivity(toHome)
-//                            updateUI(user)
                             } else {
-                                // If sign in fails, display a message to the user.
-                                Log.w("login", "signInWithEmail:failure", task.exception)
                                 Snackbar.make(btnLogin, "Login failed", Snackbar.LENGTH_LONG).show()
-//                            updateUI(null)
                             }
                         }
                 } else {
