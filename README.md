@@ -9,6 +9,8 @@ Kotlin version: [latest](https://developer.android.com/kotlin) <br />
 Firebase SDK version: [latest](https://firebase.google.com/docs/android/setup) <br />
 Minimum API SDK: 33 <br />
 
+**Note: some of the button may not function correctly.**
+
 ## Contributors
 
 1. [Andrew Virya Victorio](https://github.com/AlphaByte-RedTeam)
