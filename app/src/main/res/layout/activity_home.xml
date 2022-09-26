@@ -58,7 +58,21 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="268dp" />
+            android:layout_height="54dp" />
+
+        <TextView
+            android:id="@+id/txtOddEven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/results_will_be_shown_here"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dove_gray"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="186dp" />
 
         <Button
             android:id="@+id/btnSignOut"
