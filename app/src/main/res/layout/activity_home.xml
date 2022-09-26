@@ -28,7 +28,51 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="560dp" />
+            android:layout_height="120dp" />
+
+        <EditText
+            android:id="@+id/editNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="@string/input_number_here"
+            android:inputType="number"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="13dp"
+            android:textColorHint="@color/dove_gray" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="64dp" />
+
+        <Button
+            android:id="@+id/btnMagic"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/science_blue"
+            android:text="@string/magic_here"
+            android:textAllCaps="false" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="54dp" />
+
+        <TextView
+            android:id="@+id/txtOddEven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/results_will_be_shown_here"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dove_gray"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="186dp" />
 
         <Button
             android:id="@+id/btnSignOut"
@@ -37,5 +81,6 @@
             android:backgroundTint="@color/science_blue"
             android:text="@string/sign_out"
             android:textAllCaps="false" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

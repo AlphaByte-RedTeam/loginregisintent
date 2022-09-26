@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.EditText
 import android.widget.TextView
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -24,7 +25,19 @@ class HomeActivity : AppCompatActivity() {
         user = Firebase.auth.currentUser!!
 
         name = user.displayName!!
-        findViewById<TextView>(R.id.txtWelcomeUser).text = "Hi, $name"
+        findViewById<TextView>(R.id.txtWelcomeUser).text = "Hi, $name 👋"
+
+        val magicButton: Button = findViewById(R.id.btnMagic)
+        val numInput: EditText = findViewById(R.id.editNumber)
+
+        magicButton.setOnClickListener {
+            val num = numInput.text.toString().toInt()
+            if (num % 2 == 0) {
+                findViewById<TextView>(R.id.txtOddEven).text = "Even"
+            } else {
+                findViewById<TextView>(R.id.txtOddEven).text = "Odd"
+            }
+        }
 
         val signOutButton: Button = findViewById(R.id.btnSignOut)
         signOutButton.setOnClickListener {
