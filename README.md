@@ -19,7 +19,7 @@ Minimum API SDK: 33 <br />
 4. [Eric Wiyanto](https://github.com/wiyantoeric)
 
 ## Prototype
-![prototype](https://i.imgur.com/EZmnQTG.png)
+![prototype](https://i.imgur.com/m1Lzstn.png)
 
 ## Getting Started
 
