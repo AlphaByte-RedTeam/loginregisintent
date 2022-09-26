@@ -82,8 +82,12 @@ Fill state is a state where the `EditText` column have a real value </br>
 
 ![fill login](https://i.imgur.com/ngAdcBi.png)
 
-## Home Activity
+## Home Activity - Default State
 ![home](https://i.imgur.com/VhNzwyC.png)
+
+## Home Activity - Fill State
+![home fill odd](https://i.imgur.com/jMiB0C5.png)
+![home fill even](https://i.imgur.com/uPqQNpc.png)
 
 ## Google One-Tap Sign In
 ![google](https://i.imgur.com/9U4Jp0w.png)
