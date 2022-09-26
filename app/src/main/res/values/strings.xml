@@ -28,4 +28,5 @@
     <string name="sign_out">Sign out</string>
     <string name="input_number_here">Input number here</string>
     <string name="magic_here">Magic here ✨</string>
+    <string name="results_will_be_shown_here">Results will be shown here</string>
 </resources>
