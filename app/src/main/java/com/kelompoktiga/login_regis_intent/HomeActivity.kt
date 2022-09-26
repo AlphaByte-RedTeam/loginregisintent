@@ -24,7 +24,7 @@ class HomeActivity : AppCompatActivity() {
         user = Firebase.auth.currentUser!!
 
         name = user.displayName!!
-        findViewById<TextView>(R.id.txtWelcomeUser).text = "Hi, $name"
+        findViewById<TextView>(R.id.txtWelcomeUser).text = "Hi, $name 👋"
 
         val signOutButton: Button = findViewById(R.id.btnSignOut)
         signOutButton.setOnClickListener {
